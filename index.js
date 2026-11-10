@@ -1,13 +1,16 @@
 // Завдання 1.
 // ----------------------------------------------------------------------------
 
-// function calculateTotal(number1, number2) {
-//   const sum = number1 * number2;
-//   console.log(sum);
+// function calculateTotal(price, quantity) {
+//   const total = price * quantity;
+//   return total;
 // }
-// calculateTotal(15, 5);
-// calculateTotal(20, 8);
-// calculateTotal(7, 15);
+// const first = calculateTotal(15, 5);
+// const second = calculateTotal(20, 8);
+// const third = calculateTotal(7, 15);
+// console.log(firstOrder);
+// console.log(secondOrder);
+// console.log(thirdOrder);
 // ----------------------------------------------------------------------------
 // Завдання 2.
 // ----------------------------------------------------------------------------
@@ -59,10 +62,10 @@
 // ----------------------------------------------------------------------------
 // Завдання 5.
 // ----------------------------------------------------------------------------
-// const array = ['macbook', 'laptop', 'keyboard', 'monitor', 'mouse'];
+// const array = ['Macbook', 'Laptop', 'Keyboard', 'Monitor', 'Mouse'];
 // let boole = false;
-// for (let item of array) {
-//   if (item === 'laptop') {
+// for (const item of array) {
+//   if (item === 'Laptop') {
 //     boole = true;
 //     break;
 //   }
@@ -77,10 +80,11 @@
 // ----------------------------------------------------------------------------
 // const results = [61, 70, 63, 64, 5];
 // let allPassed = true;
-// for (let result of results) {
+// for (const result of results) {
+//   console.log(result);
 //   if (result < 60) {
+//     console.log('Failed');
 //     allPassed = false;
-//     console.log(result, 'Failed');
 //     break;
 //   }
 // }
