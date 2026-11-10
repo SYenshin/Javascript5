@@ -8,9 +8,9 @@
 // const first = calculateTotal(15, 5);
 // const second = calculateTotal(20, 8);
 // const third = calculateTotal(7, 15);
-// console.log(firstOrder);
-// console.log(secondOrder);
-// console.log(thirdOrder);
+// console.log(first);
+// console.log(second);
+// console.log(third);
 // ----------------------------------------------------------------------------
 // Завдання 2.
 // ----------------------------------------------------------------------------
